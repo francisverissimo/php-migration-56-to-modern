@@ -1,0 +1,23 @@
+# Dependencias
+/vendor/
+node_modules/
+
+# Segredos / ambiente
+.env
+.env.*
+*.key
+*.pem
+**/config/database.php
+
+# Artefatos de ferramentas
+.phpunit.result.cache
+.php-cs-fixer.cache
+.rector.cache/
+rector-dry-run-*.txt
+
+# Sistema / editor
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
